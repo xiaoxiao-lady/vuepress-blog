@@ -18,6 +18,7 @@ module.exports = {
       },
     ],
   ],
+  base:"/vuepress-blog/",
   theme: "reco",
   themeConfig: {
     nav: require("./config/nav.js"),
