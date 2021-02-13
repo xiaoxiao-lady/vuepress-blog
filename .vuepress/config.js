@@ -18,6 +18,7 @@ module.exports = {
       },
     ],
   ],
+  base: "/vuepress-blog/", //部署到github上面的相关的配置
   theme: "reco",
   themeConfig: {
     nav: require("./config/nav.js"),
