@@ -23,8 +23,28 @@ module.exports = {
       ],
     },
   ],
+  "/docs/Asyn/": [
+    {
+      title: "异步编程",
+      collapsable: false,
+      children: [
+        {
+          title: "Async",
+          path: "/docs/Asyn/Async.md",
+        },
+        {
+          title: "Generator",
+          path: "/docs/Asyn/Generator.md",
+        },
+        {
+          title: "Promise",
+          path: "/docs/Asyn/Promise.md",
+        },
+      ],
+    },
+  ],
   "/docs/technology/": [
-    // "/docs/technology/first/",//这个就是他点击跳转到他的子集，普通的直接是下拉的自己
+    "/docs/technology/first/", //这个就是他点击跳转到他的子集，普通的直接是下拉的自己
     // 文件名不能起名index.md
     {
       title: "HTML5",
@@ -53,13 +73,13 @@ module.exports = {
       ],
     },
     {
-      title: "JS",
+      title: "Js",
       collapsable: true,
       children: [
         {
           title: "异步编程",
-          collapsable: true,
-          path: "/docs/technology/Js/Asyn/read.md",
+          collapsable: false,
+          path: "/docs/Asyn/", //这里需要有这个Async文件夹里面有README.md文件
         },
       ],
     },
